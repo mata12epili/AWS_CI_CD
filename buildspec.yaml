@@ -17,7 +17,7 @@ phases:
       - mkdir -p deploy
       - cp -r dist/* deploy/
       #- cp appsec.yaml deploy/
-      - cp -r scripts/ deploy/scripts/
+      #- cp -r scripts/ deploy/scripts/
 artifacts:
   files:
     - deploy/**/*

@@ -13,7 +13,7 @@ phases:
       - npm run build
   post_build:
     commands:
-      - echo "build completed on $(date)"
+      - echo "build completed on date"
       - mkdir -p deploy
       - cp -r * deploy/
       #- cp appsec.yaml deploy/
